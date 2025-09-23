@@ -15,6 +15,21 @@ console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
 //Exercise 2 
 
 function isAdult(num){
-if (num) >= 18 {
-    
+ if(num >= 18){
+    return 'Adult';
+ }else{
+    return 'Minor';
+ }
+} 
+console.log('Exercise 2 Result:', isAdult(21));
+
+// ORIGINAL mess up (had to put everythting in the num (here))):
+/*
+function isAdult(num){
+  if (num) >= 18 { *had to fix this syntax)
+    return 'Adult';
+  } else {
+    return minor;
+  }
 }
+*/
