@@ -32,4 +32,15 @@ function isAdult(num){
     return minor;
   }
 }
-*/
+*/ 
+
+
+// Exercise 3 
+function isCharAVowel(char){
+ if (char === 'a' || char ==='e' || char ==='i' || char === 'o' || char === 'u'){
+    return true;
+ }
+ return false;
+} 
+console.log(isCharAVowel("a"))
+console.log(isCharAVowel("b"))
