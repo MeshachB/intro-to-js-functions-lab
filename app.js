@@ -51,4 +51,16 @@ console.log(isCharAVowel("b"))
 function generateEmail(string1, string2){
     return string1 + string2 
 } 
-console.log(generateEmail("Johnsmith","Example.com"))
+console.log(generateEmail("Johnsmith","Example.com")) 
+
+
+// Exercise 5 
+
+function greetUser(name, timeOfDay) {
+  if (timeOfDay === 'morning')   return `Good morning, ${name}!`;
+  if (timeOfDay === 'afternoon') return `Good afternoon, ${name}!`;
+  if (timeOfDay === 'evening')   return `Good evening, ${name}!`;
+  return `Hello, ${name}!`;
+}
+
+console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
