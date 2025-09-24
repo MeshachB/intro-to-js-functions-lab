@@ -43,4 +43,12 @@ function isCharAVowel(char){
  return false;
 } 
 console.log(isCharAVowel("a"))
-console.log(isCharAVowel("b"))
+console.log(isCharAVowel("b")) 
+
+
+// Exercise 4  
+
+function generateEmail(string1, string2){
+    return string1 + string2 
+} 
+console.log(generateEmail("Johnsmith","Example.com"))
