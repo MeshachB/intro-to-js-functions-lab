@@ -63,4 +63,21 @@ function greetUser(name, timeOfDay) {
   return `Hello, ${name}!`;
 }
 
-console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+console.log(greetUser("Sam", "morning")); 
+
+
+
+
+
+
+function maxOfThree(num1, num2, num3){
+    let max = num1; 
+   
+    if (num2 > max) max = num2;
+    if(num3 > max) max = num3;
+    return max;
+} 
+
+console.log(maxOfThree(45,91,16))
+
+
