@@ -81,3 +81,10 @@ function maxOfThree(num1, num2, num3){
 console.log(maxOfThree(45,91,16))
 
 
+// Exercise 7  
+
+function calculateTip(bill, tip){
+return bill * (tip/100);
+}
+console.log(calculateTip(50,20));
+ 
