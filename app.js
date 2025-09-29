@@ -81,6 +81,7 @@ function maxOfThree(num1, num2, num3){
 console.log(maxOfThree(45,91,16))
 
 
+
 // Exercise 7  
 
 function calculateTip(bill, tip){
@@ -88,3 +89,56 @@ return bill * (tip/100);
 }
 console.log(calculateTip(50,20));
  
+
+
+//Exercise 8
+
+function convertTemperature(temp,scale){
+    if (scale ==='C'){
+        const fahrenheit = temp * 9/5 + 32;
+        return fahrenheit;
+
+    } else if (scale === 'F'){ 
+       const celsius = (temp - 32) * 5/9;
+       return celsius;
+
+    } else {
+        return null;
+
+    }
+
+
+} 
+
+console.log(convertTemperature(32, 'C')); 
+console.log(convertTemperature(32, 'F')); 
+ 
+
+// Exercise 9 
+
+function basicCalculator(num1, num2, operation){ 
+    if (operation === 'add'){ 
+        const result = num1 + num2;
+        return result;
+
+    } else if (operation === 'subtract'){
+        const result = num1 - num2;
+        return result
+
+    }else if(operation === 'multiply'){ 
+        const result = num1 * num2 
+        return result
+
+    } else if (operation === 'divide'){ 
+        if(num2 === 0) return null;
+        const result = num1/num2;
+        return result
+
+    }else{
+      return null;  
+    }
+
+}console.log(basicCalculator(10, 5, 'subtract')); // 5
+console.log(basicCalculator(4, 3, 'add'));       // 7
+console.log(basicCalculator(6, 7, 'multiply'));  // 42
+console.log(basicCalculator(9, 3, 'divide'));    // 3
